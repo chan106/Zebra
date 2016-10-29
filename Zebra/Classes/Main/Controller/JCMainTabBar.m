@@ -23,13 +23,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupTabBar];
-//    self.tabBar.tintColor = kMainColor;
+    self.tabBar.tintColor = [UIColor colorWithDisplayP3Red:.3 green:.3 blue:.4 alpha:1];
 }
 
 -(void)setupTabBar
 { 
 //运动
-    [self setupVCTabbar:[JCSportViewController new] 	andImage:@""
+    [self setupVCTabbar:[JCSportViewController new] andImage:@""
 												  andSelectImage:@""
 													    andTitle:@"运动"];
 //轨迹														
