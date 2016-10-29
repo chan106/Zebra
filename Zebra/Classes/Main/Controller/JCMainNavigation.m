@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.navigationBar.barTintColor = kMainColor;
+    self.navigationBar.barTintColor = [UIColor colorWithRed:.5 green:.3 blue:.6 alpha:1];
     //设置title颜色
     self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};//中间title文字颜色
     self.navigationBar.tintColor = [UIColor whiteColor];//导航栏按键颜色
